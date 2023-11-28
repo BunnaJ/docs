@@ -411,3 +411,25 @@ ul{
 .fake_div{
     height: 200px;
 }
+
+/* **** */
+
+
+@media only screen and (max-width: 800px) { 
+    .two_color_holder{
+        max-width: 500px;           
+    }
+    .scanner_cover{
+        /* max-width: 500px; */
+        padding-left: 1000px;
+    }
+    .drag_container{
+        margin-top: 40px;
+    }
+    .second_box{
+        margin-left: 20%;
+    }
+    .scanner_cover p {
+        font-weight: 500;
+    }
+}
